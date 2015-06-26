@@ -23,6 +23,6 @@ Failure to comply to these guidelines will result in your showcase not looking r
             "screenshot_1":"http://i.imgur.com/CiKr2CL.png",
             "screenshot_2":"http://i.imgur.com/34sV5a6.jpg",
             "screenshot_3":"http://i.imgur.com/xMuf4yk.png",
-            "google_plus":"https://plus.google.com/+PiereRalph/posts/hYrHfXRy5SD",
+            "googleplus":"https://plus.google.com/+PiereRalph/posts/hYrHfXRy5SD",
             "version":2.1
         },
