@@ -24,5 +24,5 @@ Failure to comply to these guidelines will result in your showcase not looking r
             "screenshot_2":"http://i.imgur.com/34sV5a6.jpg",
             "screenshot_3":"http://i.imgur.com/xMuf4yk.png",
             "googleplus":"https://plus.google.com/+PiereRalph/posts/hYrHfXRy5SD",
-            "version":2.1
+            "version":"2.1"
         },
