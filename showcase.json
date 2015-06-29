@@ -11,7 +11,7 @@
             "screenshot_2":"http://i.imgur.com/34sV5a6.jpg",
             "screenshot_3":"http://i.imgur.com/xMuf4yk.png",
             "googleplus":"https://plus.google.com/+PiereRalph/posts/hYrHfXRy5SD",
-            "version":2.1
+            "version":"2.1"
         },
         {  
             "title":"Blackish Theme",
@@ -24,7 +24,7 @@
             "screenshot_2":"https://goo.gl/MCJxWC",
             "screenshot_3":"https://goo.gl/Jh44dZ",
             "googleplus":"https://plus.google.com/u/0/communities/105728182944875113175",
-            "version":1.3
+            "version":"1.3"
         }
     ],
     "Paid":[  
@@ -91,7 +91,7 @@
             "screenshot_2":"http://i.imgur.com/RnFNl5N.png",
             "screenshot_3":"http://i.imgur.com/UWDbwNb.jpg",
             "googleplus":"https://plus.google.com/+JeremyBeck24/posts/75WUuedqeFA",
-            "version":1
+            "version":"1"
         },
         {  
             "title":"Material Time",
@@ -104,7 +104,7 @@
             "screenshot_2":"http://i.imgur.com/ewWfDwa.png",
             "screenshot_3":"http://i.imgur.com/44wfMto.png",
             "googleplus":"https://plus.google.com/+NevoLevin/posts/4xN9HpuW976",
-            "version":1.4
+            "version":"1.4"
         },
         {  
             "title":"ELEMENT",
@@ -117,7 +117,7 @@
             "screenshot_2":"http://i.imgur.com/GNcwss5.png",
             "screenshot_3":"http://i.imgur.com/gKjNJh3.png",
             "googleplus":"https://plus.google.com/+StefanoTrevisani/posts/UEukd8xS32U",
-            "version":3.2.1
+            "version":"3.2.1"
         }
     ],
     "NonPS":[  
@@ -132,7 +132,7 @@
             "screenshot_2":"http://i.imgur.com/P5f21aQ.png",
             "screenshot_3":"http://i.imgur.com/lEPlnzd.png",
             "googleplus":"https://plus.google.com/+IvanIskandar1023/posts/cgQi65txouc",
-            "version":3
+            "version":"3"
         },
         {  
             "title":"Trix Softkeyz Are For Kidz",
@@ -145,7 +145,7 @@
             "screenshot_2":"http://i.imgur.com/i57cBeq.png",
             "screenshot_3":"http://i.imgur.com/ZatRKuL.png",
             "googleplus":"https://plus.google.com/105313487687916964107/posts/XDkxvggu4oS",
-            "version":1
+            "version":"1"
         }
     ]
 }
