@@ -158,46 +158,46 @@
             "will_update": "false"
         },
         
-       { 
+       {
 
-"title": "Pitch Black Layers Theme",  	
-"description": "Black with White and Grey Accents",  
-"author": "Jeremy Beck",  
-"link": "https://play.google.com/store/apps/details?id=bitsykolayers.PitchBlackFree",  
-"icon": "https://www.androidfilehost.com/?fid=24052804347764599",  
-"promo": "https://www.androidfilehost.com/?fid=24052804347765634",  
-"screenshot_1": "https://www.androidfilehost.com/?fid=24052804347764600",  
-"screenshot_2": "https://www.androidfilehost.com/?fid=24052804347764601",  
-"screenshot_3": "https://www.androidfilehost.com/?fid=24052804347764602",  
-"googleplus": "https://plus.google.com/communities/106117649318092443169",  
-"version": "6.0.2",  
-"donate_link": "https://play.google.com/store/apps/details?id=bitsykolayers.PitchBlack",  
-"donate_version": "6.0.2",  
-"bootani": "false",  
-"font": "false",  
-"wallpaper": "false",  
-"plugin_version": "1",  
-"for_L": "true",  
-"for_M": "false",  
-"basic": "true",  
-"basic_m": "true",  
-"type2": "true",  
-"type3": "true",  
-"type3_m": "false",  
-"touchwiz": "false",  
-"lg": "false",  
-"sense": "false",  
-"xperia": "false",  
-"zenui": "false",  
-"hdpi": "true",  
-"mdpi": "false",  
-"xhdpi": "true",  
-"xxhdpi": "true",  
-"xxxhdpi": "true",  
-"free": "true",  
-"donate": "true",  
-"paid": "false",  
-"needs_update": "true",  
+"title": "Pitch Black Layers Theme",
+"description": "Black with White and Grey Accents",
+"author": "Jeremy Beck",
+"link": "https://play.google.com/store/apps/details?id=bitsykolayers.PitchBlackFree",
+"icon": "https://www.androidfilehost.com/?fid=24052804347764599",
+"promo": "https://www.androidfilehost.com/?fid=24052804347765634",
+"screenshot_1": "https://www.androidfilehost.com/?fid=24052804347764600",
+"screenshot_2": "https://www.androidfilehost.com/?fid=24052804347764601",
+"screenshot_3": "https://www.androidfilehost.com/?fid=24052804347764602",
+"googleplus": "https://plus.google.com/communities/106117649318092443169",
+"version": "6.0.2",
+"donate_link": "https://play.google.com/store/apps/details?id=bitsykolayers.PitchBlack",
+"donate_version": "6.0.2",
+"bootani": "false",
+"font": "false",
+"wallpaper": "false",
+"plugin_version": "1",
+"for_L": "true",
+"for_M": "false",
+"basic": "true",
+"basic_m": "true",
+"type2": "true",
+"type3": "true",
+"type3_m": "false",
+"touchwiz": "false",
+"lg": "false",
+"sense": "false",
+"xperia": "false",
+"zenui": "false",
+"hdpi": "true",
+"mdpi": "false",
+"xhdpi": "true",
+"xxhdpi": "true",
+"xxxhdpi": "true",
+"free": "true",
+"donate": "true",
+"paid": "false",
+"needs_update": "true",
 "will_update": "true" 
 }
     ]
