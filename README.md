@@ -68,6 +68,7 @@ Each themer has their own json file named author.json. To add more themes to you
         },
 
 • Edit the data for your new theme
+
 • Make sure the last closed bracket ( } ) dosnt have a comma ( , ) after it 
 
         {
