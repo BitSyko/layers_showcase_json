@@ -2,7 +2,7 @@
 Submitting themes to the showcase
 ==================================
 
-To add your themes to the new "Layers Showcase" you need to issue a pull request and add a field to the top of showcase_json file. below is a template of the info you need to add.
+To add your themes to the new "Layers Showcase" you need to issue a pull request with your json file added to the src folder. Below is a template of the info your json file will have.
 
 Image Sizes (Important).
 =========================
@@ -52,4 +52,24 @@ Failure to comply to these guidelines will result in your showcase not looking r
             "paid": "true",
             "needs_update": "false",
             "will_update": "false"
+        }
+        
+Help adding more themes.
+======================================================================================
+Each themer has their own json file named author.json. To add more themes to your file you will need...
+1. Add a comma (,) after the closed bracket (})
+2. Copy and past all the theme content
+        {
+            "title": "Theme 1",
+            ......
+        },
+3. Edit the data for your new theme
+4. Make sure the last closed bracket (}) dosnt have a comma (,) after it 
+        {
+            "title": "Theme 1",
+            ......
+        },
+        {
+            "title": "Theme 2",
+            ......
         }
