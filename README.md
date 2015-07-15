@@ -57,14 +57,19 @@ Failure to comply to these guidelines will result in your showcase not looking r
 Help adding more themes.
 ======================================================================================
 Each themer has their own json file named author.json. To add more themes to your file you will need...
-1. Add a comma (,) after the closed bracket (})
-2. Copy and past all the theme content
+
+• Add a comma ( , ) after the closed bracket ( } )
+
+• Copy and past all the theme content
+
         {
             "title": "Theme 1",
             ......
         },
-3. Edit the data for your new theme
-4. Make sure the last closed bracket (}) dosnt have a comma (,) after it 
+
+• Edit the data for your new theme
+• Make sure the last closed bracket ( } ) dosnt have a comma ( , ) after it 
+
         {
             "title": "Theme 1",
             ......
