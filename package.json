@@ -1,0 +1,19 @@
+{
+  "name": "showcase",
+  "version": "1.0.0",
+  "description": "Merge all layer showcase jsons into one large json file",
+  "main": "gruntfile.js",
+  "scripts": {
+    "deploy": "./git.sh"
+  },
+  "keywords": [
+    "gruntjs"
+  ],
+  "author": "wh0_cares",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "0.1.9",
+    "grunt-contrib-concat": "^0.5.1"
+  }
+}

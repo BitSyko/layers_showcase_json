@@ -1,0 +1,29 @@
+language: node_js
+node_js:
+- '0.12'
+before_install: npm install -g grunt-cli
+install: npm install
+script: grunt
+before_deploy:
+- git config --global user.email "builds@travis-ci.com"
+- git config --global user.name "Travis CI"
+- export GIT_TAG=$TRAVIS_BRANCH-v0.1.$TRAVIS_BUILD_NUMBER
+- git tag $GIT_TAG -a -m "Generated tag from TravisCI for build $TRAVIS_BUILD_NUMBER"
+- git push -q https://${GH_TOKEN}@github.com/BitSyko/layers_showcase_json --tags
+- ls -R
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: s3+vySBqlw1VEVMhcJ6qy+zL8SVPxWjOf9b9s/izjljKtjG/xiV75lcUPNht5HuD1Vd195Q5UCVplmHlNdSJa5GqeUXw1ZiFHXly+GVgpwlEvayfkd2HJQZKC2lpLIALOGSIREf390eo/W+YcIxkI2AW2oaLlva3enEZgGjoPBqYV4jqo/4gZx2kt4QWF06+f/0e7Umsn4dIZ/M7DoWrGXxxaytTtjhW4WkL4t2xWYDP4A29hQOijHC9Ut8LiVY7mdrNldVoMX0E+dzlJFFDh9N5j0tfduNgq6MJXwbuHjuYF5yeNuSXa3PwnUI+LKBNyxhwuzW0WJXVAacUoiXp0RqTQAQEu9/fVuBiARh9d3XDOO4x9jIRbrzr+Jc3TGV3QKhWE8fG7iDqiCL6MThEKJo+HMjtQahp4D3EIjU9FX0W1Sr1KLgFgzNWVZ0XpjE3tC86np4epBeEyjHs+3QYUENkHpWf32Gm96sVGVW3D0/yyqN6a2SBH2rHCptYb7senrpHp1tx/Juk9DdUrh9LqH+VI8d/HkxoUBkLjXuuS7rltubOf0BssBhPL7scI90XkoYmfnbqp3SJejSN/IW6EfQ8/oxC4E1SZ9UeVZ6VpQr0RpLED3sZXXB0pICEV7KVSsWK07qauBVmj4rzCoTDftARNnP8jVuxZiJYOgFNI70=
+  file:
+  - dest/showcase.json
+  on:
+    tags: false
+    all_branches: true
+branches:
+  except:
+  - /^*-v[0-9]/
+env:
+  global:
+    secure: BU3thnuZKHMe/1jRh6XI9Q8IBUd5PmGVR6cSOI7G26pn/lr9T6GJ4AVKL0KaKcn4AUeE8wHqU1p9RmwRF++Zv/jdZH3YaJyCFZrE1PSvjO7RmIgdlcdgmWg1AjPWv5fXMYXCsH5SpIVjCN64bY5qCgJxtUJlxCWGZI6OXafZlnVXhJpTh//aFYKNuEs4OJenqWd1napiG+jWQM/cmN1GK+zXHjwgGNW4Bj+nmprTcFbsVLZUXvlyxPRgzwpb0ORl9olXlB1O3N/1z3LaXQ/gWCPITegaWl9RbQCUy2mhyPApUxlcY17+vwuFmT6oYUF8E0ikCaSE2Ec6Dzt4aW25pgRn7mkwJBB2CaR5xmWNuXlOo3D/SFDHMYtbCzWxKLAHZmt6WDzmkLDBClFY7ZM4AbAzCpFB+h2obVP3jtIupn1dlsGFJZaVi/U7USmCdZe69LvlPcKBjS2GQSEX+UYTEGIQL1UvbqFnNkMQ79TctvDcmtqGjv7cIrLO8OitQ3wJK8JpygWdPKba06Nm35yPYTawylQvhl4aYdmude17nHJFG3zYj4NPTmA8kjkngJ6Awqee+nTvqjYqY8mSQVSF75vpKffAzbFW0MAgkEykeMIrUTTjTHqoDhnZsOJi6HRyTisDlOyqaa2dETUnqiw9bX3NFVoUyNuH9WK1yHfL+Yw=
