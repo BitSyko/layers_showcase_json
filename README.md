@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/BitSyko/layers_showcase_json.svg?branch=master)](https://travis-ci.org/BitSyko/layers_showcase_json)
 # layers_showcase_json
 Submitting themes to the showcase
 ==================================
