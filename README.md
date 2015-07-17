@@ -5,6 +5,8 @@ Submitting themes to the showcase
 
 To add your themes to the new "Layers Showcase" you need to issue a pull request with your json file added to the src folder. Below is a template of the info your json file will have.
 
+Use the link below for the form. http://wh0cares.github.io
+
 Validate Json before submitting
 ==================================
 Want to be carefull and make sure your json is formatted correctly use http://jsonlint.com/ to validate your file
