@@ -7,13 +7,28 @@ module.exports = function (grunt) {
                 src: ['src/*.json'],
                 dest: 'dest/showcase.json',
                 options: {
-                    banner: '/*\nAuto Generated Layers Showcase Json - Author: <%= pkg.author %>\nLast Update <%= grunt.template.today("dddd, mmmm dS, yyyy, h:MM:ss TT Z") %>\n*/\n{\n    "Themes": [\n',
+                    banner: '{\n"Info" : "Auto Generated Layers Showcase Json - Author: <%= pkg.author %> Last Update <%= grunt.template.today("dddd, mmmm dS, yyyy, h:MM:ss TT Z") %>",\n "Themes": [\n',
                     footer: "\n    ]\n}\n",
                     separator: ',\n'
                 }
             }
         }
     });
+
+    grunt.registerTask('test', 'test if showcase.json is indeed json', function(){
+
+        var json;
+        var jsonString = grunt.file.read('dest/showcase.json');
+        
+        try {
+            json = JSON.parse(jsonString);
+        } catch (exception) {
+            json = null;
+            grunt.fail.fatal("File is not json file", 1);
+        }
+
+    });
+
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.registerTask('default', ['concat']);
+    grunt.registerTask('default', ['concat', 'test']);
 };
