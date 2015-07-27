@@ -34,7 +34,7 @@
     "xxhdpi": "true",
     "xxxhdpi": "true",
     "free": "false",
-    "donate": "true",
+    "donate": "false",
     "paid": "true",
     "needs_update": "false",
     "will_update": "false"
