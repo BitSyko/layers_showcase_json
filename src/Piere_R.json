@@ -28,14 +28,14 @@
     "sense": "false",
     "xperia": "false",
     "zenui": "false",
-    "hdpi": "false",
+    "hdpi": "true",
     "mdpi": "false",
-    "xhdpi": "false",
+    "xhdpi": "true",
     "xxhdpi": "true",
-    "xxxhdpi": "false",
+    "xxxhdpi": "true",
     "free": "true",
     "donate": "false",
     "paid": "false",
     "needs_update": "false",
-    "will_update": "false"
+    "will_update": "true"
 }
