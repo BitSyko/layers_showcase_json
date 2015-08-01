@@ -12,14 +12,19 @@ module.exports = function (grunt) {
                     separator: ',\n'
                 }
             }
+        },
+        'json-minify': {
+            build: {
+                files: 'dest/showcase.json'
+            }
         }
     });
 
-    grunt.registerTask('test', 'test if showcase.json is indeed json', function(){
+    grunt.registerTask('test', 'test if showcase.json is valid json file', function() {
 
         var json;
         var jsonString = grunt.file.read('dest/showcase.json');
-        
+
         try {
             json = JSON.parse(jsonString);
         } catch (exception) {
@@ -30,5 +35,7 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.registerTask('default', ['concat', 'test']);
+    grunt.loadNpmTasks('grunt-json-minify');
+
+    grunt.registerTask('default', ['concat', 'json-minify', 'test']);
 };
