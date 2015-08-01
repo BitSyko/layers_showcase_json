@@ -4,7 +4,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         concat: {
             json: {
-                src: ['src/*.json'],
+                src: ['src/**/*.json'],
                 dest: 'dest/showcase.json',
                 options: {
                     banner: '{\n"Info" : "Auto Generated Layers Showcase Json - Author: <%= pkg.author %> Last Update <%= grunt.template.today("dddd, mmmm dS, yyyy, h:MM:ss TT Z") %>",\n "Themes": [\n',
