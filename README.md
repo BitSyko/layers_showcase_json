@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/BitSyko/layers_showcase_json.svg?branch=master)](https://travis-ci.org/BitSyko/layers_showcase_json)
 # layers_showcase_json
-Submitting themes to the showcase
+Submitting layers to the showcase
 ==================================
 
-To add your themes to the new "Layers Showcase" you need to issue a pull request with your json file added to the src folder. Below is a template of the info your json file will have.
+To add your layers to the new "Layers Showcase" you need to issue a pull request with your json files added to your subfolder in the src folder. Below is a template of the info your json file will have.
 
 Use the link below for the form. http://wh0cares.github.io
 
@@ -20,69 +20,68 @@ promo_header = W=1598 x H=1052
 Failure to comply to these guidelines will result in your showcase not looking right.
 ======================================================================================
 
-        {
-            "title": "ELEMENT - Layers Theme",
-            "description": "Element, a new way of thinking theming. Created by users for users",
-            "author": "SPAstef",
-            "link": "https://play.google.com/store/apps/details?id=bitsykolayers.ELEMENT",
-            "icon": "http://i.imgur.com/fcBy21T.png",
-            "promo": "http://i.imgur.com/UIPe5pT.png",
-            "screenshot_1": "http://i.imgur.com/oJYrMXb.png",
-            "screenshot_2": "http://i.imgur.com/GNcwss5.png",
-            "screenshot_3": "http://i.imgur.com/gKjNJh3.png",
-            "googleplus": "https://plus.google.com/+StefanoTrevisani/posts/NGVQcadWxQp",
-            "version": "3.2.1",
-            "donate_link": "false",
-            "donate_version": "false",
-            "bootani": "false",
-            "font": "false",
-            "wallpaper": "http://i.imgur.com/KYOD5PA.png",
-            "plugin_version": "1",
-            "for_L": "true",
-            "for_M": "true",
-            "basic": "true",
-            "basic_m": "true",
-            "type2": "true",
-            "type3": "false",
-            "type3_m": "false",
-            "touchwiz": "true",
-            "lg": "true",
-            "sense": "true",
-            "xperia": "true",
-            "hdpi": "false",
-            "mdpi": "false",
-            "xhdpi": "true",
-            "xxhdpi": "true",
-            "xxxhdpi": "true",
-            "free": "false",
-            "donate": "false",
-            "paid": "true",
-            "needs_update": "false",
-            "will_update": "false"
-        }
+    {
+        "title": "Light MIUI 6",
+        "description": "Light MIUI 6 theme is here to bring you the closest look of MIUI 6 to your phone",
+        "author": "Luke Walczak",
+        "link": "https://play.google.com/store/apps/details?id=alter.MIUIv6Light",
+        "backup_link": false,
+        "icon": "https://lh3.googleusercontent.com/f4-9GcXEFud3ETxJ5gcyH1-Uk4ULE-WoVtfdwzSIHP4cD_eq4S5x7QnVTYMESq7NBh3ong=w1416-h641",
+        "promo": "https://lh3.googleusercontent.com/qLJXKnN6u3jI7UgK0sBAJuxNIif5vba3eyNXJrESDZZdn8ZjJ7ljXkytE6nXU4xGi_hz8g=w1416-h641",
+        "screenshot_1": "https://lh5.googleusercontent.com/_6JSCRvG8yRLvoQfiufGiEqhUGji_U-X4c7jkxmk6ddZJwq9asa1HSWwHCzKziGjfhxgtg=w1416-h641",
+        "screenshot_2": "https://lh6.googleusercontent.com/y90nCcdwnFwsolfFhBk8MUc7LDKn-1PN-gsQLbK70_kxA8IYXieD0YHwlEnTAViTh73L7g=w1416-h641",
+        "screenshot_3": "https://lh4.googleusercontent.com/P5K0NutlGsPBDAFW3WyV08YB_JWJIc0jZMyUXF2QJraYvdUFA4xMzW_vm6qTO2GHPeo2RQ=w1416-h641",
+        "googleplus": "https://plus.google.com/+LukeWalczak/posts/A5G6nk1DnDy",
+        "version": "3.0.3",
+        "donate_link": false,
+        "donate_version": false,
+        "bootani": false,
+        "font": false,
+        "wallpaper": false,
+        "plugin_version": "1",
+        "for_L": true,
+        "for_M": false,
+        "basic": true,
+        "basic_m": false,
+        "type2": true,
+        "type3": false,
+        "type3_m": false,
+        "touchwiz": false,
+        "lg": false,
+        "sense": false,
+        "xperia": false,
+        "zenui": false,
+        "hdpi": true,
+        "mdpi": false,
+        "xhdpi": true,
+        "xxhdpi": true,
+        "xxxhdpi": true,
+        "free": false,
+        "donate": false,
+        "paid": true,
+        "needs_update": false,
+        "will_update": true,
+        "iconpack": "false"
+    }
         
-Help adding more themes.
+Help adding more layers.
 ======================================================================================
-Each themer has their own json file named author.json. To add more themes to your file you will need...
+Inside the src folder each themer has their own subfolder filled with their own layers json files. To add another layer to the showcase you will need to...
 
-• Add a comma ( , ) after the closed bracket ( } )
+• Each layer has its own json file so just copy the content of one of your already made json files
+        
+    {
+        "title": "Layers 1",
+        ......
+    }
 
-• Copy and past all the theme content
+•  Paste all the layers content to a new json file and edit it
+    
+    {
+        "title": "Layers 2",
+        ......
+    }
+    
+•  Once your done rename you json files to the layers title name. Please remove spaces from the file name
 
-        {
-            "title": "Theme 1",
-            ......
-        },
-
-• Edit the data for your new theme
-
-• Make sure the last closed bracket ( } ) dosnt have a comma ( , ) after it 
-
-        {
-            "title": "Theme 1",
-            ......
-        },
-        {
-            "title": "Theme 2",
-            ......
-        }
+•  At the end you should have src/authors_name/Layers_1.json and src/authors_name/Layers_2.json
