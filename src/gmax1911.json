@@ -39,7 +39,8 @@
     "donate": "false",
     "paid": "false",
     "needs_update": "false",
-    "will_update": "false"
+    "will_update": "true",
+    "iconpack": "false"
 },
 {
 "title": "Blackish Theme",
@@ -82,5 +83,6 @@
     "donate": "false",
     "paid": "false",
     "needs_update": "false",
-    "will_update": "false"
+    "will_update": "false",
+    "iconpack": "false"
 }

@@ -39,5 +39,6 @@
     "donate": false,
     "paid": true,
     "needs_update": false,
-    "will_update": true
+    "will_update": true,
+    "iconpack": "false"
 }

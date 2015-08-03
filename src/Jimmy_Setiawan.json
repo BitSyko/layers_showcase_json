@@ -39,7 +39,8 @@
 "donate": "true", 
 "paid": "false", 
 "needs_update": "true", 
-"will_update": "true"
+"will_update": "true",
+    "iconpack": "false"
 },
 {
 "title": "Magpie Theme", 
@@ -82,7 +83,8 @@
 "donate": "false", 
 "paid": "true", 
 "needs_update": "true", 
-"will_update": "true"
+"will_update": "true",
+    "iconpack": "false"
 },
 {
 "title": "Midnight Theme", 
@@ -125,5 +127,6 @@
 "donate": "true", 
 "paid": "false", 
 "needs_update": "true", 
-"will_update": "true"
+"will_update": "true",
+    "iconpack": "false"
 }
