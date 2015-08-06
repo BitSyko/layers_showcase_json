@@ -33,6 +33,7 @@ Failure to comply to these guidelines will result in your showcase not looking r
         "screenshot_3": "https://dl.dropbox.com/s/4nkvemk5p4t9p1d/screenshot3.png?dl=0",
         "googleplus": "https://plus.google.com/+LukeWalczak/posts/A5G6nk1DnDy",
         "version": "3.0.3",
+        "toolbar_background_color": "ABCDEF",
         "donate_link": false,
         "donate_version": false,
         "bootani": false,
