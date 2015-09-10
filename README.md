@@ -86,3 +86,4 @@ Inside the src folder each themer has their own subfolder filled with their own 
 •  Once your done rename you json files to the layers title name. Please remove spaces from the file name
 
 •  At the end you should have src/authors_name/Layers_1.json and src/authors_name/Layers_2.json
+
