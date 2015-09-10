@@ -7,7 +7,7 @@ script: grunt
 before_deploy:
 - git config --global user.email "builds@travis-ci.com"
 - git config --global user.name "Travis CI"
-- export GIT_TAG=$TRAVIS_BRANCH-v0.1.$TRAVIS_BUILD_NUMBER
+- export GIT_TAG=$TRAVIS_BRANCH-v0.2.$TRAVIS_BUILD_NUMBER
 - git tag $GIT_TAG -a -m "Generated tag from TravisCI for build $TRAVIS_BUILD_NUMBER"
 - git push -q https://${GH_TOKEN}@github.com/BitSyko/layers_showcase_json --tags
 - ls -R
@@ -16,7 +16,7 @@ branches:
   - /^*-v[0-9]/
 env:
   global:
-  - secure: BJUAalxgiEiLJoj132qY9jGQbrDjtrcLxiYWxIPmoWYaQ5eQxdKPjoUg7nxR0kodR8UtIaoX1CuL19gpbf0Xt4Yv9XnxwINluB68OVK7GNNrMIkYo3ybOHLDY2i4G8djcXRAkKmkG9Z1qRUUF4Yme3o6N8HCmLQ+Bk8SUyPbR7L+dok01Qhk9hUBpmjPkAVLLpEqD9r5/bC+TSf7Hsl++Wrfqt8fn/YYNU/nfYD+2yQMJtz48Km8VXNCQ3bgGHCoJN9YrQrtTtsetyU/0NfV2M6qTN3GTflfZrKa2zLmlRI3meTUvDfB3BucZ2+5YD+G5awBcAyla1ulDFrnmkEmnKkVSqkn85efz3qv8As9j/H1Ub7dAKK2lWc7K/agBHUjw3/961qoWKXZKnKvonFMqD2wD3lJsUbjf3eoTrCK84QIQThcpi9HkOFu2r8xjQpIX14cXL2der5cyx9ny1Tzq8BzlpN2ezZBa/RpLdFYhUO0nkzffbKGEcZHMlrOXMhm+ZAy84UpFfxvRvNT02/pJKdq2vJHzKL20s/5+9m1S5ZnVcSqPt962klmwtSMd9j0Bs05ifY92htRYh1FLlNq+ZF3c597t141vLZa3mOizMnZqd6jMpZYeRCI5V1CyAZR67SSRS0ucfW9z/Xls2CbUDtyK0MqLvtDc1rRe60kB9g=
+  - secure: Kba7H1/eutMzFG5N87y3qQF4owYVMC+tEPg506pjq8RQrV34GttcTyUtIgjVaZdwdWkXLbToglSkqk4b4RC01SEEBNSfTa53ikX7ijql59NUT03p3Zk5y4fqFEZ73nMmUWQ/Q14hkx6qJAnppRYIgMeh++H3AMr639MM/HZCj0OCSprEkqIa5PA4l2AtZ+npmAHHfCSVIQaRiQC/Ui6hGt6EVePJPZK0HJtbJAdJWBPvyJR3gGjzfv+FthxdKgZ6zmJxiqEpUdcJBbDk3TPZfDNg6emQ9jnXf1eWq2uH8r014R5/OOiTyejAoIEmQVTrZEiaYNHTiRaRKgditp8mOxiSdnT1Cnic8eYOC2wPL9us57RtpoRzc1cfhIDiBon9R3NrF9rWTaGgEyl3aI3aTm6IujXpdgUaPEMu+EaihayOZRBw4nE6FXNIoiHdU8yBwPf7stfb9ohnDPfPWKmfjW/vawSFtZxoMcAc9VvyFEi5aJWkgZ7PtUY/oXEVDqNOsax2GQ6FgH/YdNtc1iUKjZDUdI7XYahKq1zVYGlRiJynbCiZThwyA5/IZjWyoMRYy2le+xtCO6W+nTmlGWykAPWwX+kVqGgvA/Nht0EQVC2rIuXhwos7VUq8I1K3GsQ0c4sj7f4UcoqzkqoT7ZTVOYhjMX1DPocXOvN/JlRjPag=
 deploy:
   skip_cleanup: true
   provider: releases
