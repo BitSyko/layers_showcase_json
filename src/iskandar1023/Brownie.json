@@ -2,7 +2,7 @@
     "title": "Brownie",
     "description": "Brown is the color, Brownie is the theme.",
     "author": "iskandar1023",
-    "link": "https://goo.gl/kPWZ1K",
+    "link": "https://goo.gl/1V7vP0",
     "backup_link": false,
     "icon": "http://i.imgur.com/K6jd8kH.png",
     "promo": "http://i.imgur.com/mfj1I2i.png",
@@ -16,7 +16,7 @@
     "bootani": false,
     "font": false,
     "wallpaper": "http://i.imgur.com/byeWvHG.png",
-    "plugin_version": 1,
+    "plugin_version": "1",
     "for_L": true,
     "for_M": false,
     "basic": true,
@@ -39,5 +39,5 @@
     "paid": false,
     "needs_update": false,
     "will_update": true,
-    "iconpack": "false"
+    "iconpack": false
 }
