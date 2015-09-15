@@ -30,7 +30,7 @@
     "sense": false,
     "xperia": false,
     "zenui": false,
-    "hdpi": false,
+    "hdpi": true,
     "mdpi": false,
     "xhdpi": true,
     "xxhdpi": true,
