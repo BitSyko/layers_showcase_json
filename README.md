@@ -1,23 +1,36 @@
 [![Build Status](https://travis-ci.org/BitSyko/layers_showcase_json.svg?branch=master)](https://travis-ci.org/BitSyko/layers_showcase_json)
 # layers_showcase_json
-Submitting layers to the showcase
+
+ATTENTION THEMERS
+
+The showcase is being updated to change where the data is being stored. Right now the data is on the github repo and auto builds when a new layer is added. Soon the data will be on http://layersshowcase.x10.mx/
+
+Sadly all existing layers will need to be readded but with the website it has been made a lot easier.
+
+To add your layer to the Layers Showcase you will need to sign up at http://layersshowcase.x10.mx/ click "submit a layer" and fill in the form. After that you can view all your submissions, delete a layer, edit a layers info or submit another layer. Admin users can accept layer submissions to be showed in the showcase
+
+
+
+
+
+~~Submitting layers to the showcase~~
+=================================
+
+~~To add your layers to the new "Layers Showcase" you need to issue a pull request with your json files added to your subfolder in the src folder. Below is a template of the info your json file will have.~~
+
+~~Use the link below for the form. http://wh0cares.github.io~~
+
+~~Validate Json before submitting~~
 ==================================
+~~Want to be carefull and make sure your json is formatted correctly use http://jsonlint.com/ to validate your file~~
 
-To add your layers to the new "Layers Showcase" you need to issue a pull request with your json files added to your subfolder in the src folder. Below is a template of the info your json file will have.
-
-Use the link below for the form. http://wh0cares.github.io
-
-Validate Json before submitting
-==================================
-Want to be carefull and make sure your json is formatted correctly use http://jsonlint.com/ to validate your file
-
-Image Sizes (Important).
+~~Image Sizes (Important).~~
 =========================
-icons = H=256 x W=256
-screenshots = H=1920.
-promo_header = W=1598 x H=1052
+~~icons = H=256 x W=256~~
+~~screenshots = H=1920.~~
+~~promo_header = W=1598 x H=1052~~
 
-Failure to comply to these guidelines will result in your showcase not looking right.
+~~Failure to comply to these guidelines will result in your showcase not looking right.~~
 ======================================================================================
 
     {
@@ -65,25 +78,25 @@ Failure to comply to these guidelines will result in your showcase not looking r
         "iconpack": "false"
     }
         
-Help adding more layers.
+~~Help adding more layers.~~
 ======================================================================================
-Inside the src folder each themer has their own subfolder filled with their own layers json files. To add another layer to the showcase you will need to...
+~~Inside the src folder each themer has their own subfolder filled with their own layers json files. To add another layer to the showcase you will need to...~~
 
-• Each layer has its own json file so just copy the content of one of your already made json files
-        
+~~• Each layer has its own json file so just copy the content of one of your already made json files~~
+
     {
         "title": "Layers 1",
         ......
     }
 
-•  Paste all the layers content to a new json file and edit it
+~~•  Paste all the layers content to a new json file and edit it~~
     
     {
         "title": "Layers 2",
         ......
     }
     
-•  Once your done rename you json files to the layers title name. Please remove spaces from the file name
+~~•  Once your done rename you json files to the layers title name. Please remove spaces from the file name~~
 
-•  At the end you should have src/authors_name/Layers_1.json and src/authors_name/Layers_2.json
+~~•  At the end you should have src/authors_name/Layers_1.json and src/authors_name/Layers_2.json~~
 
